@@ -9,7 +9,10 @@
 ip=198.125.161.201
 
 path=/usr/share/snmp/mibs
-setVoltage=1650
+
+#voltage is 1750 for H10570 PMTs
+setVoltage=1750
+
 setCurrent=.100
 setStatus=1
 setRamp=100
